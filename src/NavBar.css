@@ -1,0 +1,43 @@
+/* NavBar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgb(51, 52, 68);
+    color: #fff;
+  }
+  
+  .navbar-brand a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    height: 40px; 
+  }
+
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-item {
+    margin-left: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar-item a {
+    color: rgb(173, 209, 238);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-item a:hover {
+    color: rgb(248, 194, 119);
+    text-decoration: none;
+  }
+  

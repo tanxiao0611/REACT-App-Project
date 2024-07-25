@@ -1,12 +1,20 @@
 // NavBar.js
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import logo from './assets/logo.png';
 
 
 const NavBar = () => {
+    const [dropdownOpen, setDropdownOpen] = useState(null);
+    const handleMouseEnter = (navmenu) => {
+        setDropdownOpen(navmenu);
+    };
+    const handleMouseLeave = () => {
+        setDropdownOpen(null);
+    };
+
     return (
         <nav className="navbar">
             <div className="navbar-brand">
@@ -15,20 +23,62 @@ const NavBar = () => {
                 </Link>
             </div>
             <ul className="navbar-menu">
-                <li className="navbar-item">
+
+                <li className="navbar-item"
+                    onMouseEnter={() => handleMouseEnter('home')}
+                    onMouseLeave={handleMouseLeave}>
                     <Link to="/">Home</Link>
                 </li>
-                <li className="navbar-item">
-                    <Link to="/about">About</Link>
+
+                <li className="navbar-item dropdown"
+                    onMouseEnter={() => handleMouseEnter('about')}
+                    onMouseLeave={handleMouseLeave}>
+                    <span className="dropdown-toggle">
+                        About
+                    </span>
+                    {dropdownOpen === 'about' && (
+                        <ul className="dropdown-menu">
+                            <li className="dropdown-item">
+                                <Link to="/about/F1inSchools101">F1 in Schools</Link>
+                            </li>
+                            <li className="dropdown-item">
+                                <Link to="/about/F1SDSZ">F1@SDSZ</Link>
+                            </li>
+                            <li className="dropdown-item">
+                                <Link to="/about/SiriusLucibus">Sirius Lucibus</Link>
+                            </li>
+                        </ul>
+                    )}
                 </li>
-                <li className="navbar-item">
-                    <Link to="/services">Services</Link>
+
+                <li className="navbar-item dropdown"
+                    onMouseEnter={() => handleMouseEnter('portfolio')}
+                    onMouseLeave={handleMouseLeave}>
+                    <span className="dropdown-toggle">
+                        Portfolio
+                    </span>
+                    {dropdownOpen === 'portfolio' && (
+                        <ul className='dropdown-menu'>
+                            <li className='dropdown-item'>
+                                <Link to="/portfolio/Engineering">Engineering</Link>
+                            </li>
+                            <li className='dropdown-item'>
+                                <Link to="/portfolio/Marketing">Marketing</Link>
+                            </li>
+                            <li className='dropdown-item'>
+                                <Link to="/portfolio/ProjectManagement">Project Management</Link>
+                            </li>
+                        </ul>
+                    )}
+
                 </li>
-                <li className="navbar-item">
-                    <Link to="/contact">Contact</Link>
+                <li className="navbar-item"
+                    onMouseEnter={() => handleMouseEnter('shop')}
+                    onMouseLeave={handleMouseLeave}>
+                    <Link to="/shop">Shop</Link>
                 </li>
             </ul>
-        </nav>
+        </nav >
     );
 };
 

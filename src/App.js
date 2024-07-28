@@ -1,18 +1,18 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './NavBar';
-import Home from './Home';
-import About from './About';
-import F1inSchools101 from './F1inSchools101';
-import F1SDSZ from './F1SDSZ';
-import SiriusLucibus from './SiriusLucibus';
-import Project from './Project';
-import Engineering from './Engineering';
-import Marketing from './Marketing';
-import ProjectManagement from './ProjectManagement';
-import Shop from './Shop';
-import Footer from './footer';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import About from './components/About';
+import F1inSchools101 from './components/F1inSchools101';
+import F1SDSZ from './components/F1SDSZ';
+import SiriusLucibus from './components/SiriusLucibus';
+import Project from './components/Project';
+import Engineering from './components/Engineering';
+import Marketing from './components/Marketing';
+import ProjectManagement from './components/ProjectManagement';
+import Shop from './components/Shop';
+import Footer from './components/footer.js';
 import './App.css';
 
 const App = () => {

@@ -1,9 +1,9 @@
 import React from 'react';
-import Cover from './assets/cover_f1sdsz.png';
-import Intro from './assets/f1@sdsz_intro.png';
-import Passion from './assets/passion.jpg';
-import Legacy from './assets/legacy.png';
-import Unity from './assets/unity.jpg';
+import Cover from '../assets/cover_f1sdsz.png';
+import Intro from '../assets/f1@sdsz_intro.png';
+import Passion from '../assets/passion.jpg';
+import Legacy from '../assets/legacy.png';
+import Unity from '../assets/unity.jpg';
 import './F1SDSZ.css'
 
 const F1SDSZ = () => {

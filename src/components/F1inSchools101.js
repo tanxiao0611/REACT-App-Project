@@ -1,11 +1,11 @@
 import React from 'react';
 import './F1inSchools101.css'
-import Cover from './assets/cover_aboutf1iS.png';
-import WorldFinals from './assets/world_finals_2023.mp4'
-import Management from './assets/management.jpg'
-import Engineering from './assets/engineering.jpg'
-import Marketing from './assets/marketing.png'
-import Events from './assets/events.jpg'
+import Cover from '../assets/cover_aboutf1iS.png';
+import WorldFinals from '../assets/world_finals_2023.mp4'
+import Management from '../assets/management.jpg'
+import Engineering from '../assets/engineering.jpg'
+import Marketing from '../assets/marketing.png'
+import Events from '../assets/events.jpg'
 
 const F1inSchools101 = () => {
     return (

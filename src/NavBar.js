@@ -52,21 +52,21 @@ const NavBar = () => {
                 </li>
 
                 <li className="navbar-item dropdown"
-                    onMouseEnter={() => handleMouseEnter('portfolio')}
+                    onMouseEnter={() => handleMouseEnter('project')}
                     onMouseLeave={handleMouseLeave}>
                     <span className="dropdown-toggle">
-                        Portfolio
+                        Project
                     </span>
-                    {dropdownOpen === 'portfolio' && (
+                    {dropdownOpen === 'project' && (
                         <ul className='dropdown-menu'>
                             <li className='dropdown-item'>
-                                <Link to="/portfolio/Engineering">Engineering</Link>
+                                <Link to="/project/Engineering">Engineering</Link>
                             </li>
                             <li className='dropdown-item'>
-                                <Link to="/portfolio/Marketing">Marketing</Link>
+                                <Link to="/project/Marketing">Marketing</Link>
                             </li>
                             <li className='dropdown-item'>
-                                <Link to="/portfolio/ProjectManagement">Project Management</Link>
+                                <Link to="/project/ProjectManagement">Project Management</Link>
                             </li>
                         </ul>
                     )}

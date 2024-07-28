@@ -1,0 +1,39 @@
+.f1iS-container{
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.side-video,
+.side-image {
+  width: calc(50% - 45px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.text {
+    width: calc(50% - 45px);
+  }
+
+
+.text h2 {
+    margin-top: 10px;
+    font-size: xx-large;
+    color: rgb(248,194,119);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+  }
+
+
+.text p {
+    margin: 0;
+    color:rgb(51,52,68);
+    line-height: 1.6;
+    font-weight: 500;
+  }

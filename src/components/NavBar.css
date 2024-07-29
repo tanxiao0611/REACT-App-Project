@@ -8,30 +8,30 @@
     background-color: rgb(51, 52, 68);
     color: #fff;
   }
-  
-  .navbar-brand a {
+
+.navbar-brand a {
     display: flex;
     align-items: center;
   }
-  
-  .navbar-brand img {
+
+.navbar-brand img {
     height: 40px;
   }
 
-  .navbar-menu {
+.navbar-menu {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
   }
-  
-  .navbar-item {
+
+.navbar-item {
     margin-left: 4rem;
     position: relative;
     font-family: 'Roboto', sans-serif;
   }
-  
-  .navbar-item a:link, .navbar-item a:active, .navbar-item a:visited, .navbar-item span {
+
+.navbar-item a:link, .navbar-item a:active, .navbar-item a:visited, .navbar-item span {
     color: rgb(173, 209, 238);
     text-decoration: none;
     font-weight: bold;
@@ -39,12 +39,13 @@
     font-size: 1.1rem;
     padding: 1rem;
   }
-  
-  .navbar-item a:hover, .navbar-item span:hover  {
+
+.navbar-item a:hover, .navbar-item span:hover  {
     color: rgb(248, 194, 119);
     text-decoration: none;
   }
-  .dropdown-menu {
+
+.dropdown-menu {
     position: absolute;
     top: 150%;
     left: 0;
@@ -53,19 +54,19 @@
     padding: 0;
     margin: 0;
     display: block;
-    
   }
-  .dropdown-item {
+
+.dropdown-item {
     padding: 0rem 0.5rem;
     text-align: left;
   }
-  
-  .dropdown-item a {
+
+.dropdown-item a {
     color: #fff;
     text-decoration: none;
     display: block;
   }
-  
-  .dropdown-item a:hover {
+
+.dropdown-item a:hover {
     text-decoration: none;
   }

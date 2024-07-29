@@ -11,7 +11,7 @@ import Project from './components/Project';
 import Engineering from './components/Engineering';
 import Marketing from './components/Marketing';
 import ProjectManagement from './components/ProjectManagement';
-import Shop from './components/Shop';
+import Shopping from './components/Shopping.js';
 import Footer from './components/footer.js';
 import './App.css';
 
@@ -31,7 +31,7 @@ const App = () => {
             <Route path="/project/Engineering" element={<Engineering />} />
             <Route path="/project/Marketing" element={<Marketing />} />
             <Route path="/project/ProjectManagement" element={<ProjectManagement />} />
-            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop" element={<Shopping />} />
           </Routes>
         </Router>
       </div>

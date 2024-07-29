@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 html, body {
   height: 100%;
   margin: 0;
@@ -16,6 +18,32 @@ html, body {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+.Header{
+  display: flex;
+  font-size: xx-large;
+  font-family: 'Anton', sans-serif;
+  justify-content: space-between;
+  color: rgb(51, 52, 68);
+  align-items: center;
+  margin-bottom: 40px
+}
+
+.layout-white {
+  padding: 40px;
+  background-color: #fff;
+
+}
+
+.layout-blue {
+  padding: 40px;
+  background-color: rgb(173, 209, 238);
+}
+
+.text-content{
+  font-size: large;
+  line-height: 30px;
 }
 
 footer {

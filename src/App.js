@@ -9,7 +9,7 @@ import F1SDSZ from './components/F1SDSZ';
 import SiriusLucibus from './components/SiriusLucibus';
 import Project from './components/Project';
 import Engineering from './components/Engineering';
-import Marketing from './components/Marketing';
+import Enterprise from './components/Enterprise';
 import ProjectManagement from './components/ProjectManagement';
 import Shopping from './components/Shopping.js';
 import Footer from './components/footer.js';
@@ -29,7 +29,7 @@ const App = () => {
             <Route path="/about/SiriusLucibus" element={<SiriusLucibus />} />
             <Route path="/project" element={<Project />} />
             <Route path="/project/Engineering" element={<Engineering />} />
-            <Route path="/project/Marketing" element={<Marketing />} />
+            <Route path="/project/Enterprise" element={<Enterprise />} />
             <Route path="/project/ProjectManagement" element={<ProjectManagement />} />
             <Route path="/shop" element={<Shopping />} />
           </Routes>

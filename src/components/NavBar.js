@@ -63,7 +63,7 @@ const NavBar = () => {
                                 <Link to="/project/Engineering">Engineering</Link>
                             </li>
                             <li className='dropdown-item'>
-                                <Link to="/project/Marketing">Marketing</Link>
+                                <Link to="/project/Enterprise">Enterprise</Link>
                             </li>
                             <li className='dropdown-item'>
                                 <Link to="/project/ProjectManagement">Project Management</Link>

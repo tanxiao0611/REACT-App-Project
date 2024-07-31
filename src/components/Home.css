@@ -1,21 +1,20 @@
-/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.home .background {
+  background-image: url('/src/assets/Home-background.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
 
-@keyframes flashIn {
-    0% {
-      opacity: 0;
-      transform: translate(50%, 50%) scale(0.5);
-    }
-    50% {
-      opacity: 1;
-      transform: translate(5%, 5%) scale(1.1);
-    }
-    100% {
-      opacity: 1;
-      transform: translate(0%, 0%) scale(1);
-    }
-  }
-  
-  .flash-in {
-    animation: flashIn 1s ease-out;
-  }
-  
+.home .content {
+  position: relative;
+  padding:50px 30px;
+  color: #fff;
+  z-index: 1;
+  font-family: 'Anton', sans-serif;
+}

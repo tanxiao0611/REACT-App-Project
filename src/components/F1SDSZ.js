@@ -22,8 +22,6 @@ const F1SDSZ = () => {
                         image={Passion}
                         title="Passion"
                         description="See how Lenovo is playing an important role in creating innovative technologies that benefit people and the planet in addition to generating profits."
-                        link="/passion"
-                        linkText="Read more"
                     />
                     <Card
                         image={Legacy}

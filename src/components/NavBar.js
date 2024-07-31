@@ -1,12 +1,16 @@
 // NavBar.js
 
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import './NavBar.css';
 import logo from '../assets/logo.png';
+//import { FaInstagram, FaWeixin } from 'react-icons/fa';
 
 
 const NavBar = () => {
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
+
     const [dropdownOpen, setDropdownOpen] = useState(null);
     const handleMouseEnter = (navmenu) => {
         setDropdownOpen(navmenu);
@@ -16,7 +20,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className="navbar">
+        <nav className={`navbar ${isHomePage ? 'navbar-transparent' : 'navbar-default'}`}>
             <div className="navbar-brand">
                 <Link to="/">
                     <a href="/"><img src={logo} alt="Logo" /></a>
@@ -78,6 +82,12 @@ const NavBar = () => {
                     <Link to="/shop">Shop</Link>
                 </li>
             </ul>
+            {/*  isHomePage && (
+            <div className="social-icons">
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                <a href="https://www.wechat.com" target="_blank" rel="noopener noreferrer"><FaWeixin /></a>
+            </div>
+            )*/}
         </nav >
     );
 };

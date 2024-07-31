@@ -45,21 +45,21 @@ const Enterprise = () => {
                         image={Identity}
                         title='Team Identity'
                         description='Discover our team identity'
-                        link='/identity'
+                        link='/project/Enterprise/identity'
                         linkText='Read more'
                     />
                     <Card
                         image={Sponsorship}
                         title='Sponsorship'
                         description='Discover our sponsors'
-                        link='/sponsorship'
+                        link='/project/Enterprise/sponsorship'
                         linkText='Read more'
                     />
                     <Card
                         image={MKT}
                         title='Marketing'
                         description='Discover our Marketing stratgies'
-                        link='/marketing'
+                        link='/project/Enterprise/marketing'
                         linkText='Read more'
                     />
                 </div>

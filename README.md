@@ -1,3 +1,19 @@
+# Team Sirius Lucibus Official Website (Demo project)
+Some photos are sourced from the internet, and this project has no commercial use.
+For any inquiries, please feel free to contact this email: xtan0611@gmail.com
+## About me
+Name: Xiao Tan
+Pronouns: She/her/hers
+School: University of North Carolina at Chapel Hill
+Major: Computer Science, BS
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

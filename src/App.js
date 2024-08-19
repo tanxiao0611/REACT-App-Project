@@ -16,7 +16,9 @@ import Footer from './components/footer.js';
 import Identity from './components/Identity.js';
 import Sponsorship from './components/Sponsorship.js'
 import Marketing from './components/Marketing.js';
+import CheckoutPage from './components/Checkout.js';
 import './App.css';
+
 
 const App = () => {
   const location = useLocation();
@@ -40,6 +42,7 @@ const App = () => {
           <Route path="/project/Enterprise/marketing" element={<Marketing />} />
           <Route path="/project/ProjectManagement" element={<ProjectManagement />} />
           <Route path="/shop" element={<Shopping />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
         </Routes>
 
       </div>

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .home .background {
-  background-image: url('/src/assets/Home-background.png'); /* Replace with your image path */
+  background-image: url('/src/assets/Home-background.png');
   background-size: cover;
   background-position: center;
   position: absolute;

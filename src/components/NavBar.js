@@ -82,12 +82,6 @@ const NavBar = () => {
                     <Link to="/shop">Shop</Link>
                 </li>
             </ul>
-            {/*  isHomePage && (
-            <div className="social-icons">
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-                <a href="https://www.wechat.com" target="_blank" rel="noopener noreferrer"><FaWeixin /></a>
-            </div>
-            )*/}
         </nav >
     );
 };

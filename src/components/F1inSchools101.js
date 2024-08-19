@@ -9,7 +9,7 @@ import Events from '../assets/events.jpg'
 
 const F1inSchools101 = () => {
     return (
-        <div className='f1iS-container'>
+        <div>
             <img className='cover' src={Cover} alt='Cover' />
             <div className="content">
                 <video className='side-video' controls>

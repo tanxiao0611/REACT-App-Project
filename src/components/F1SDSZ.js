@@ -21,19 +21,19 @@ const F1SDSZ = () => {
                     <Card
                         image={Passion}
                         title="Passion"
-                        description="See how Lenovo is playing an important role in creating innovative technologies that benefit people and the planet in addition to generating profits."
+                        description="Explore how F1@SDSZ has grown into a close-knit community and attracted more and more members."
                     />
                     <Card
                         image={Legacy}
                         title="Legacy"
-                        description="See how Lenovo is playing an important role in creating innovative technologies that benefit people and the planet in addition to generating profits."
+                        description="Explore how F1@SDSZ has grown into a close-knit community and attracted more and more members."
                         link="/legacy"
                         linkText="Read more"
                     />
                     <Card
                         image={Unity}
                         title="Unity"
-                        description="See how Lenovo is playing an important role in creating innovative technologies that benefit people and the planet in addition to generating profits."
+                        description="Explore how F1@SDSZ has grown into a close-knit community and attracted more and more members."
                         link="/unity"
                         linkText="Read more"
                     />

@@ -18,8 +18,7 @@ Project
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/6104849f-baf0-4525-b057-d579efae54e4">  
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/fe6ec4b2-6e95-49b0-8ea0-17eb514fd978">  
 Shop
-<img width="1439" alt="image" src="https://github.com/user-attachments/assets/93a103d6-c2e7-4f45-a19e-5feb7db82114">  
-<img width="1438" alt="image" src="https://github.com/user-attachments/assets/5a502d93-3ffa-48e9-aea9-4613b6b766d6">  
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/93a103d6-c2e7-4f45-a19e-5feb7db82114">   
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/ddeec7f2-6c89-4904-a063-462cb3f67c6d">  
   
 ## About me  

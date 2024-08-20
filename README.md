@@ -1,86 +1,31 @@
 # Team Sirius Lucibus Official Website (Demo project)
-Some photos are sourced from the internet, and this project has no commercial use.
-For any inquiries, please feel free to contact this email: xtan0611@gmail.com
-## About me
-Name: Xiao Tan
-Pronouns: She/her/hers
-School: University of North Carolina at Chapel Hill
-Major: Computer Science, BS
-
-
-
-
-
-
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This Web App project is dedicated to my high school F1 in Schools team, Sirius Lucibus.  
+Some photos are sourced from the internet, and this project has no commercial use.  
+For any inquiries, please feel free to contact this email: xtan0611@gmail.com  
+  
+## Prject Status  
+Unfinished  
+  
+## Preview
+Home  
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/a74687e8-5f9f-4034-adcb-5f14aa7e51ae">   
+About
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/aad12590-d98d-41e9-8512-b3ada8106d85">  
+<img width="1438" alt="image" src="https://github.com/user-attachments/assets/6e260a4b-08c0-433a-9552-6d7e28196e82">  
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/13a44cfc-29b3-4e21-8cf9-d17c845fed06">  
+Project
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/b9eca761-a626-4672-b41f-6378df9089a5">  
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/6104849f-baf0-4525-b057-d579efae54e4">  
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/fe6ec4b2-6e95-49b0-8ea0-17eb514fd978">  
+Shop
+<img width="1439" alt="image" src="https://github.com/user-attachments/assets/93a103d6-c2e7-4f45-a19e-5feb7db82114">   
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/ddeec7f2-6c89-4904-a063-462cb3f67c6d">  
+  
+## About me  
+Name: Xiao Tan  
+Pronouns: She/her/hers  
+Education:   
+The Experimental High School Attached to Beijing Normal Univercity  
+University of North Carolina at Chapel Hill  
+Major: Computer Science, B.S. Consider doing a double major on Linguistics  
+Minor: English  

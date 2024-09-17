@@ -2,9 +2,7 @@
 This Web App project is dedicated to my high school F1 in Schools team, Sirius Lucibus.  
 Some photos are sourced from the internet, and this project has no commercial use.  
 For any inquiries, please feel free to contact this email: xtan0611@gmail.com  
-  
-## Prject Status  
-Unfinished  
+   
   
 ## Preview
 Home  
